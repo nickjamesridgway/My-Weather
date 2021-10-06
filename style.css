@@ -1,0 +1,40 @@
+header{
+    background-color: blue;
+    margin: 0;
+    padding: 1%;
+    font-family: "IBM Plex Sans", sans-serif;
+    color: white;
+    line-height: 1.5;
+    font-size: 16px;
+    border-radius: 1px;
+    border-color: black;
+    text-align: center;
+}
+
+body{
+}
+
+div{
+    border-radius: 0px;
+    border-color: red;
+}
+
+.row {
+    flex: 1 0 100%;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 0px;
+    border-color: black;
+  }
+
+  .day{
+      background-color: blue;
+      align-content: center;
+      margin: 1%;
+      padding: 1%;    
+      flex: 1 0 100%;
+      display: inline-flex;
+      flex-wrap: nowrap;
+      border-radius: 0px;
+      border-color: black;
+  }
